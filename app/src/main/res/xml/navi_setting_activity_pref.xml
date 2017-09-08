@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="导航设置">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="setting_pref_navi_beijng_camera"
+            android:summary="导航页面显示进京证摄像头"
+            android:title="进京证摄像头" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="setting_pref_navi_night"
+            android:summary="开关夜间导航模式"
+            android:title="夜间模式" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="setting_pref_navi_fix_path"
+            android:summary="开关偏航计算"
+            android:title="偏航计算" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="setting_pref_navi_jam"
+            android:summary="开关拥堵重新计算路线"
+            android:title="拥堵重算" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="setting_pref_navi_traffic"
+            android:summary="开关交通语音播报"
+            android:title="交通播报" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="setting_pref_navi_camera"
+            android:summary="开关摄像头播报"
+            android:title="摄像头播报" />
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="setting_pref_navi_screen_on"
+            android:summary="导航时候屏幕常亮"
+            android:title="屏幕常亮" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
